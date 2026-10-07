@@ -1,0 +1,10 @@
+allowBuilds:
+  '@prisma/engines': true
+  bcrypt: true
+  esbuild: true
+  msgpackr-extract: true
+  prisma: true
+
+# Não roda um install implícito antes de cada `pnpm run <script>`
+# (evita o ruído de IGNORED_BUILDS / "deps out of sync" no pnpm dev).
+verifyDepsBeforeRun: false
